@@ -974,6 +974,7 @@ outline: 0;
 
 .number {
 	margin-right: 0px !important;
+	max-width: 100%;
 }
 
 .calculate-block-img {
