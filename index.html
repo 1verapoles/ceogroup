@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="header fullwidth">
+  <div class="content">
+    <div class="logo"><img src="img/logo.png" alt="logo"><div class="name">Название <br> компании <br> <span class="under">самая клевая компания</span></div></div>
+  	<div class="contacts"><a href="tel:+7(499)777-77-77">+7(499) 777-77-77</a> <br><a href="tel:+7(499)777-77-77">+7(499) 777-77-77</a></div>
+  </div>		
+  </div>
+  <div class="fullwidth f2">
+    <div class="content">
+      <div class="form">
+        <h3>форма с кнопкой</h3>
+        <form action="#">
+          <p>оставь телефон и получи <br>что-то офигенное</p>
+          <input id="phone"  type="tel" placeholder="Введите номер" required> <br>
+         <input type="submit" class="form__submit" value="получить">
+          <!-- <button>получить</button> -->
+        </form>
+      </div>
+    </div>
+  </div> 
+  <div class="title1"> <h4>Тут у нас слайдер</h4></div>
+   <div class="slider owl-carousel owl-theme">
+    <div class="slide">1</div>
+    <div class="slide slide2">2</div>
+    <div class="slide slide3">3</div>
+  </div>
+  <div class="text1">
+    <h5>просто текстовый блок</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere quis arcu sit amet commodo. Nullam ac dui lacus. Nulla dapibus interdum interdum. Curabitur ut diam nisl. Vivamus libero lacus, viverra at dolor sit amet, commodo faucibus orci. Vivamus laoreet ornare nisi, id pharetra tellus ullamcorper volutpat. Sed lacinia placerat accumsan. Praesent pharetra ipsum scelerisque, sodales urna ut, placerat nulla. Duis nunc urna, semper non arcu ut, sagittis dapibus lorem. Nunc nec urna id velit sodales sodales. Sed porttitor quam eget mollis consequat. Curabitur aliquet nec dui eget aliquet. Nulla in risus ante.</p>
+  </div>
+  <div class="f5 content">
+    <p class="f5__p">Калькулятор <br>
+    (стоимость пользователь узнает по телефону)</p>
+    <form id="data" action="#">
+    <div class="pictures">
+      <input id="wc1" type="radio" name="window-choice" checked class="window-choice"><label for="wc1" class="picture"><img src="img/window1.jpg" alt="Одностворчатое"><p class="picture-blue">Одностворчатое</p></label>
+      <input id="wc2" type="radio" name="window-choice" class="window-choice"><label for="wc2" class="picture"><img src="img/window2.jpg" alt="Двухстворчатое"><p class="picture-blue">Двухстворчатое</p></label>
+      <input id="wc3" type="radio" name="window-choice" class="window-choice"><label for="wc3" class="picture"><img src="img/window3.jpg" alt="Трехстворчатое"><p class="picture-blue">Трехстворчатое</p></label>
+      <input id="wc4" type="radio" name="window-choice" class="window-choice"><label for="wc4" class="picture"><img src="img/window4.jpg" alt="Балконный блок"><p class="picture-blue">Балконный блок</p></label>
+      <input id="wc5" type="radio" name="window-choice" class="window-choice"><label for="wc5" class="picture"><img src="img/window5.jpg" alt="Остекление балкона"><p class="picture-blue">Остекление балкона</p></label>
+    </div>
+    <div class="calculate" id="calculate">
+      <div class="calculate-block">
+        <div class="calculate-block-left">
+          <div class="calculate-block-img"><img class="calculate-block-src" src="img/window6.jpg" alt=""> <div class="horis">ширина</div><div  class="verti">высота</div></div>
+          <input name="width" class="inp1" type="number" required placeholder="120"> <span class="multiply">x</span><input name="height" class="inp2" required type="number" placeholder="120"></div>
+        <div class="calculate-block-right">
+          <div class="good">Одностворчатое окно KBE</div>
+          <div class="opt">1. Критерий выбора </div>
+          <div class="check">
+            <label><input name="choice" type="radio" required>&nbsp;&nbsp;пункт выбора 1</label>
+            <label><input name="choice" type="radio" required>&nbsp;&nbsp;пункт выбора 2</label>
+            <label><input name="choice" type="radio" required>&nbsp;&nbsp;пункт выбора 3</label>
+          </div>
+          <div class="opt">2. Выберите открывание створки</div>
+          <select name="open" id="open" required>
+            <option value="var1">Не открывается</option>
+            <option value="var2">Открывается</option>
+          </select>
+        </div>
+      </div>
+       <div class="buttons">
+        <span class="man"><img src="img/people.png" alt="man"><input type="tel" id="tel1" class="number" required placeholder="Введите номер"></span>
+        <input class="count" type="submit" value="рассчитать">
+    </div>
+    </div>
+     </div>
+</form>
+  <div class="footer fullwidth">
+  <div class="content"> <p>просто <br> скромный футер</p></div>	
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script> 
+   <script src="js/main.js"></script> 
+  </body>
+</html>
