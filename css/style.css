@@ -965,7 +965,12 @@ outline: 0;
 
 .man {
 	margin-bottom: 15px;
+	max-width: 100%;
 }
+	
+.count {
+     max-width: 100%;
+	}
 
 .number {
 	margin-right: 0px !important;
